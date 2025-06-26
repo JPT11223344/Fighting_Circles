@@ -1,6 +1,4 @@
 Python script for automating placing FCs.
-citypoints.shp is a point file of settlement centroids.
-frontline.shp is a line file of the frontline as of 6/25/2025.
-Please upload a CSV with the name citiesMMDD to the function. This should have a single column with "FC" as the header and the list of settlements following it.
-Update the function call in line 135 to reflect the date.
-This will export a .shp of points for FCs and a corresponding CSV with lat/long data.
+Upload the collect doc to the folder and ensure that the function call (ln 207) reflects the day's doc. 
+Other needed files are as follows: frontline.shp (frontline as of 6/24/25), citypoints.shp (settlements layer). 
+This will generate a .shp that can be added to th FC guidleine layer. 
